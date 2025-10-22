@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      
+      <div class = "container">
+      <h1 class = "title" > JERICHO FORENSICS </h1>
+      <h2 class = "title"> AUTHORITIES DATA ACCESS </h2>
+      <p class = "title"> Login below to access your ordered lab results. </p>
+      
+      <input
+      type="text"
+      placeholder = "username"
+      id="username"
+      name="username"
+      required
+      size="10" /> <br> <br>
+      
+      <input
+      type="text"
+      placeholder = "password"
+      id="password"
+      name="password"
+      required
+      size="10" /> <br> <br>
+      
+      <button type="submit" id = "login" onclick = "login()"> Login </button> 
+      <p id = "wrongcredentials"> </p>
+      </div>
+    
+      
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>

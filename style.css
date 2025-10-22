@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  line-height: 0.5;
+}
+
+#wrongcredentials {
+   font-size: 12px;
+   color: red;
+}
