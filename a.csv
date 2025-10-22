@@ -1,9 +1,10 @@
 id,CaseNumber,Date,SampleType,Methods,Amelogenin,SRY,Comparison,Notes
-3,CASE-001,10/31/1990,hair,STR Profiling,"106,112",+,Match REF-B (full match),Match to Gomez Addams
+3,CASE-001,10/31/1990,hair,STR Profiling,106/112,+,Match REF-B (full match),Match to Gomez Addams
 4,CASE-001,10/31/1990,hair,STR Profiling,106,-,Match REF-C (2/6 loci),Match to Morticia Addams
-5,CASE-005,10/12/2023,saliva,STR Profiling,"106,112",+,Match REF-A (full match),Match to Tom Williams
+5,CASE-005,10/12/2023,saliva,STR Profiling,106/112,+,Match REF-A (full match),Match to Tom Williams
 6,CASE-005,10/12/2023,blood,STR Profiling,106,-,Match REF-D (full match),Match to Mary Williams
-8,CASE-09,10/29/2025,fur,STR Profiling,"106,112",+,No match,Found at the crime scene.
+8,CASE-09,10/29/2025,fur,STR Profiling,106/112,+,No match,Found at the crime scene.
 9,CASE-10,10/28/2025,blood,STR Profiling,106,-,No match,Found at the crime scene
-10,REF-MALE,9/30/2023,reference (buccal swab),STR Profiling,"106,112",+,No match,Male reference
+10,REF-MALE,9/30/2023,reference (buccal swab),STR Profiling,106/112,+,No match,Male reference
 11,REF-FEMALE,9/30/2023,reference (buccal swab),STR Profiling,106,-,No match,Female reference
+
