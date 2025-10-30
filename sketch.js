@@ -1,5 +1,5 @@
 function login() {
-  if (document.getElementById("username").value == "venividivici" && document.getElementById("password").value == caesarCipher("venividivici", 3)) {
+  if (document.getElementById("username").value == "JulianCeasar" && document.getElementById("password").value == caesarCipher("ettubrute", 3)) {
 	  window.location.href='dataresults.html'
   } else {
 	  document.getElementById("wrongcredentials").innerHTML = "Username or password is incorrect. Please try again.";
